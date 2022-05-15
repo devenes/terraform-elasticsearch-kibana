@@ -20,13 +20,13 @@ IaC allows you to build, change, and manage your infrastructure in a safe, consi
 
 ## Terraform Plan Actions
 
-```tf
-Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with
-the following symbols:
-  + create
+Terraform used the selected providers to generate the following execution plan.
+
+Resource actions are indicated with the following symbols:
 
 Terraform will perform the following actions:
 
+```tf
   # aws_eip.nat_gw_eip_1 will be created
   + resource "aws_eip" "nat_gw_eip_1" {
       + allocation_id        = (known after apply)

@@ -1,3 +1,5 @@
+[![Terraform Infra Plan](https://github.com/devenes/terraform-elasticsearh/actions/workflows/terraform_plan.yml/badge.svg)](https://github.com/devenes/terraform-elasticsearh/actions/workflows/terraform_plan.yml)
+
 # Create ElasticSearch on AWS VPC with Terraform
 
 ## Description

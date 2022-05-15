@@ -20,7 +20,6 @@ jobs:
     name: ${{matrix.runner}} - ${{ matrix.environment }}
     runs-on: ["${{ matrix.runner }}"]
     strategy:
-      max-parallel: 5
       matrix:
         include:
           - environment: prod
